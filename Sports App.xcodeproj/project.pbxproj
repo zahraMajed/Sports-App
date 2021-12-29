@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		84FD4CD1277C6C9C0071B3E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD4CD0277C6C9C0071B3E7 /* AppDelegate.swift */; };
 		84FD4CD3277C6C9C0071B3E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD4CD2277C6C9C0071B3E7 /* SceneDelegate.swift */; };
-		84FD4CD5277C6C9C0071B3E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD4CD4277C6C9C0071B3E7 /* ViewController.swift */; };
 		84FD4CD8277C6C9C0071B3E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FD4CD6277C6C9C0071B3E7 /* Main.storyboard */; };
 		84FD4CDB277C6C9C0071B3E7 /* Sports_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84FD4CD9277C6C9C0071B3E7 /* Sports_App.xcdatamodeld */; };
 		84FD4CDD277C6C9D0071B3E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FD4CDC277C6C9D0071B3E7 /* Assets.xcassets */; };
 		84FD4CE0277C6C9D0071B3E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FD4CDE277C6C9D0071B3E7 /* LaunchScreen.storyboard */; };
+		84FD4CE9277C6CF20071B3E7 /* SportsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD4CE8277C6CF20071B3E7 /* SportsTableViewController.swift */; };
+		84FD4CEB277C6D420071B3E7 /* PlayersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD4CEA277C6D420071B3E7 /* PlayersTableViewController.swift */; };
+		84FD4CEF277C6F880071B3E7 /* SportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD4CEE277C6F880071B3E7 /* SportTableViewCell.swift */; };
+		84FD4CF2277C87B20071B3E7 /* SportEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD4CF1277C87B20071B3E7 /* SportEntity.swift */; };
+		84FD4CF4277C99B60071B3E7 /* PlayerEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD4CF3277C99B60071B3E7 /* PlayerEntity.swift */; };
+		84FD4CF7277CCD980071B3E7 /* SportCellDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD4CF6277CCD980071B3E7 /* SportCellDelegates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84FD4CCD277C6C9C0071B3E7 /* Sports App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sports App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FD4CD0277C6C9C0071B3E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84FD4CD2277C6C9C0071B3E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84FD4CD4277C6C9C0071B3E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84FD4CD7277C6C9C0071B3E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84FD4CDA277C6C9C0071B3E7 /* Sports_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sports_App.xcdatamodel; sourceTree = "<group>"; };
 		84FD4CDC277C6C9D0071B3E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84FD4CDF277C6C9D0071B3E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FD4CE1277C6C9D0071B3E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FD4CE8277C6CF20071B3E7 /* SportsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsTableViewController.swift; sourceTree = "<group>"; };
+		84FD4CEA277C6D420071B3E7 /* PlayersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersTableViewController.swift; sourceTree = "<group>"; };
+		84FD4CEE277C6F880071B3E7 /* SportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportTableViewCell.swift; sourceTree = "<group>"; };
+		84FD4CF1277C87B20071B3E7 /* SportEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportEntity.swift; sourceTree = "<group>"; };
+		84FD4CF3277C99B60071B3E7 /* PlayerEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerEntity.swift; sourceTree = "<group>"; };
+		84FD4CF6277CCD980071B3E7 /* SportCellDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportCellDelegates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +68,12 @@
 		84FD4CCF277C6C9C0071B3E7 /* Sports App */ = {
 			isa = PBXGroup;
 			children = (
+				84FD4CF5277CCD7F0071B3E7 /* Delegates */,
+				84FD4CF0277C87980071B3E7 /* CoreData */,
+				84FD4CED277C6F660071B3E7 /* Views */,
+				84FD4CE7277C6CC80071B3E7 /* View Controllers */,
 				84FD4CD0277C6C9C0071B3E7 /* AppDelegate.swift */,
 				84FD4CD2277C6C9C0071B3E7 /* SceneDelegate.swift */,
-				84FD4CD4277C6C9C0071B3E7 /* ViewController.swift */,
 				84FD4CD6277C6C9C0071B3E7 /* Main.storyboard */,
 				84FD4CDC277C6C9D0071B3E7 /* Assets.xcassets */,
 				84FD4CDE277C6C9D0071B3E7 /* LaunchScreen.storyboard */,
@@ -68,6 +81,40 @@
 				84FD4CD9277C6C9C0071B3E7 /* Sports_App.xcdatamodeld */,
 			);
 			path = "Sports App";
+			sourceTree = "<group>";
+		};
+		84FD4CE7277C6CC80071B3E7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84FD4CE8277C6CF20071B3E7 /* SportsTableViewController.swift */,
+				84FD4CEA277C6D420071B3E7 /* PlayersTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		84FD4CED277C6F660071B3E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84FD4CEE277C6F880071B3E7 /* SportTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84FD4CF0277C87980071B3E7 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				84FD4CF1277C87B20071B3E7 /* SportEntity.swift */,
+				84FD4CF3277C99B60071B3E7 /* PlayerEntity.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		84FD4CF5277CCD7F0071B3E7 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				84FD4CF6277CCD980071B3E7 /* SportCellDelegates.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84FD4CD5277C6C9C0071B3E7 /* ViewController.swift in Sources */,
+				84FD4CEF277C6F880071B3E7 /* SportTableViewCell.swift in Sources */,
+				84FD4CE9277C6CF20071B3E7 /* SportsTableViewController.swift in Sources */,
 				84FD4CD1277C6C9C0071B3E7 /* AppDelegate.swift in Sources */,
+				84FD4CF2277C87B20071B3E7 /* SportEntity.swift in Sources */,
+				84FD4CF7277CCD980071B3E7 /* SportCellDelegates.swift in Sources */,
 				84FD4CDB277C6C9C0071B3E7 /* Sports_App.xcdatamodeld in Sources */,
 				84FD4CD3277C6C9C0071B3E7 /* SceneDelegate.swift in Sources */,
+				84FD4CEB277C6D420071B3E7 /* PlayersTableViewController.swift in Sources */,
+				84FD4CF4277C99B60071B3E7 /* PlayerEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +350,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,6 +378,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
